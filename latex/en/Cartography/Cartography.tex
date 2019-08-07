@@ -102,7 +102,7 @@ Although scale is traditionally understood as a concept related to the data repr
 
 The resolution of the human eye is 0.2mm. With that value, and the scale we want to use for a map, we can know the level of detail that we need to use when capturing data to be used as part of that map. 
 
-In GIS, as we have seen, data does not contain its visualization. That means we can visualize it at any scale (and that is very easy to do with the zoom tools that are found in most GIS software). However, data has been captured at a given level of detail, However, data has been captured at a given level of detail, which defines the scale meant to be used and represents a limitation of that data. It will not be correct to represent it beyond that scale. In other words, to create a map at a more detailed scale, we will need more detailed data. It's easy to forget that when using a GIS.
+In GIS, as we have seen, data does not contain its visualization. That means we can visualize it at any scale (and that is very easy to do with the zoom tools that are found in most GIS software). However, data has been captured at a given level of detail, which defines the scale meant to be used and represents a limitation of that data. It will not be correct to represent it beyond that scale. In other words, to create a map at a more detailed scale, we will need more detailed data. It's easy to forget that when using a GIS.
 
 Raster layers, as we have seen, have a \textbf{cell size} which defines the resolution of the layer and is related to scale.
 
@@ -120,7 +120,7 @@ Generalization in the context of a GIS also includes other changes that are made
 
 For instance, if we are representing the road layer in a map that covers the entire world, we should not paint the roads at their real size. They would be too thin and almost invisible. We will paint them much thicker, thus creating a map that might be less correct (we are distorting the real size of those roads), but is much more useful.
 
-Generalization is, therefore, a process whose main purpose is \textbf{to produce a cartographic image more legible and expressive}, selecting and adjusting the elements contained in a the map. It emphasizes the important ones, while it omits the least important ones.
+Generalization is, therefore, a process whose main purpose is \textbf{to produce a cartographic image more legible and expressive}, selecting and adjusting the elements contained in a map. It emphasizes the important ones, while it omits the least important ones.
 
 Some of the most relevant operations in cartographic generalization are \textbf{simplification} (representing an element that is less complex), \textbf{aggregation} (representing several elements as just one ---Figure \ref{Fig:Generalization_aggregation}---), \textbf{exaggeration} (representing elements with a larger size) and \textbf{displacement} (representing elements at a different location, to ensure legibility).
 
